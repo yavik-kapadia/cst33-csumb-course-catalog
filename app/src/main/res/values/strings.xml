@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CSUMB Course Catalog</string>
+    <string name="the_following_courses_are_required_for_cs_majors_who_have_been_accepted_into_the_cs_online_degree_completion_program_please_select_a_course_to_learn_more_about_it">
+        The following courses are required for CS majors who have been accepted
+        into the CS Online Degree Completion Program. Please select a course to
+        learn more about it.
+    </string>
+    <string name="csumb_cs_online_course_requirements">CSUMB CS Online Course
+        Requirements
+    </string>
+    <string name="courseDescription">Course Description:</string>
+    <string name="csumb_logo">CSUMB Logo</string>
+    <string name="some_course">Some Course</string>
+    <string name="course_units">Course Units:</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="396dp"
+        android:layout_height="744dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimaryDark"
+            android:contentDescription="CSUMB Logo"
+            app:srcCompat="@drawable/ic_csumb_logo_white" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/csumb_cs_online_course_requirements"
+            android:textAlignment="center"
+            android:textColor="@color/bgCSUMB"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingStart="5sp"
+            android:text="@string/the_following_courses_are_required_for_cs_majors_who_have_been_accepted_into_the_cs_online_degree_completion_program_please_select_a_course_to_learn_more_about_it"
+            android:textColor="@color/bgCSUMB" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="545dp"
+            android:background="@color/colorAccent"
+            android:fastScrollEnabled="false"
+            android:overScrollFooter="@color/colorAccent"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarStyle="insideInset" />
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:onClick="playVideo"
+            android:text="Play Video" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
